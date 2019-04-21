@@ -1,0 +1,51 @@
+//
+// Created by pobi on 15.01.19.
+//
+
+#include <boost/test/unit_test.hpp>
+#include "../include/BookManager.h"
+#include "../include/CustomerManager.h"
+#include "../include/RentManager.h"
+#include <vector>
+#include <string>
+#include <iostream>
+#include <memory>
+#include <sstream>
+#include "Book.h"
+#include "Customer.h"
+#include "Educational.h"
+#include "Horror.h"
+#include "Language.h"
+#include "Math.h"
+#include "Regular.h"
+#include "Rent.h"
+#include "Student.h"
+#include "BookManager.h"
+#include "CustomerManager.h"
+#include "RentManager.h"
+#include "BookRepo.h"
+
+using namespace std;
+BOOST_AUTO_TEST_SUITE(BasicModelTestSuite)
+
+
+
+    BOOST_AUTO_TEST_CASE(CheckException) {
+        BookManager bookManager;
+        CustomerManager customerManager;
+        RentManager rentManager;
+
+        HorrorPtr h1 (new Horror("Pet Sematary","horror",16));
+        HorrorPtr h2 (new Horror("Shining","horror",16));
+        HorrorPtr h3 (new Horror("IT","horror",16));
+
+        CustomerPtr c2 (new Customer("Poca","Hontas",'r'));
+        CustomerPtr c4 (new Customer("Chan","Mio",'s'));
+
+        rentManager.rentBook(h1,c4);
+
+
+        BOOST_CHECK_THROW(rentManager.rentBook(h1,c2), exception);
+    }
+
+BOOST_AUTO_TEST_SUITE_END()

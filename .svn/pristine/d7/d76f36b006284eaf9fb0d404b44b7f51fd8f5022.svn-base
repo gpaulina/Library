@@ -1,0 +1,49 @@
+//
+// Created by pobi on 11.01.19.
+//
+
+#include "../include/Rent.h"
+#include <vector>
+#include <string>
+#include <iostream>
+#include <memory>
+#include <sstream>
+
+using namespace std;
+
+Rent::Rent(CustomerPtr customer, BookPtr book) : customer(customer), book(book),beginDate(LTime(PTime(), TZone())) {
+    ID = boost::uuids::random_generator()();
+}
+
+Rent::~Rent() {
+
+}
+
+boost::uuids::uuid Rent::getID() {
+    return ID;
+}
+
+
+
+ CustomerPtr Rent::getCustomer()  {
+    return customer;
+}
+
+
+BookPtr Rent::getBook() {
+    return book;
+}
+
+int Rent::rentDuration() {
+    int days=0;
+    days = (LTime(PTime(), TZone()).date()-beginDate.date()).days()+1;
+    return days;
+}
+
+double Rent::rentCost() {
+    return customer->getTotalCost(rentDuration());
+}
+
+void Rent::setBeginDate(LTime choosenBeginDate) {
+    beginDate=choosenBeginDate;
+}

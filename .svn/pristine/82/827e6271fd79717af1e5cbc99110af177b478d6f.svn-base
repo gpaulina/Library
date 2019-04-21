@@ -1,0 +1,58 @@
+//
+// Created by pobi on 11.01.19.
+//
+
+#ifndef UNTITLED1_RENT_H
+#define UNTITLED1_RENT_H
+
+#include <boost/uuid/random_generator.hpp>
+#include <boost/date_time/local_time/local_time.hpp>
+#include <boost/date_time/posix_time/posix_time.hpp>
+#include <boost/uuid/uuid_io.hpp>
+#include <vector>
+#include <string>
+#include <iostream>
+#include <memory>
+#include <sstream>
+#include "Book.h"
+#include "Customer.h"
+
+class Customer;
+typedef std::shared_ptr<Customer> CustomerPtr;
+
+typedef boost::local_time::local_date_time LTime;
+typedef boost::local_time::time_zone_ptr TZone;
+typedef boost::posix_time::ptime PTime;
+
+using namespace std;
+
+class Rent {
+private:
+    boost::uuids::uuid ID;
+    TZone timeZone{new boost::local_time::posix_time_zone("CET+1")};
+    LTime beginDate;
+    CustomerPtr customer;
+    BookPtr book;
+public:
+    Rent( CustomerPtr customer,  BookPtr book);
+
+    virtual ~Rent();
+
+    boost::uuids::uuid getID() ;
+
+    CustomerPtr getCustomer();
+
+    void setID(boost::uuids::uuid ID);
+
+    void setBeginDate(LTime choosenBeginDate);
+
+    BookPtr getBook();
+
+    int rentDuration();
+
+    double rentCost();
+};
+
+typedef shared_ptr<Rent> RentPtr;
+
+#endif //UNTITLED1_RENT_H

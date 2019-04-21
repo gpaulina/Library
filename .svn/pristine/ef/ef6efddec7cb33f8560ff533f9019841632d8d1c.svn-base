@@ -1,0 +1,26 @@
+//
+// Created by pobi on 11.01.19.
+//
+
+#include "../include/Regular.h"
+#include <vector>
+#include <string>
+#include <iostream>
+#include <memory>
+#include <sstream>
+
+using namespace std;
+
+Regular::Regular() {}
+
+Regular::~Regular() {
+
+}
+
+int Regular::getMaxRentDuration() const {
+    return maxRentDuration;
+}
+
+double Regular::cost(int days) {
+    return CustomerType::dailyFee*double(days);
+}

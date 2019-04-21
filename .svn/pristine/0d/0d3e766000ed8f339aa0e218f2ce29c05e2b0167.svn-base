@@ -1,0 +1,33 @@
+//
+// Created by pobi on 11.01.19.
+//
+
+#include "../include/RentRepo.h"
+#include <vector>
+#include <string>
+#include <iostream>
+#include <memory>
+#include <sstream>
+
+using namespace std;
+
+RentRepo::RentRepo() {}
+
+RentRepo::~RentRepo() {
+
+}
+
+void RentRepo::rentBook(RentPtr rent) {
+    rentRepo[rent->getID()] = rent;
+}
+
+double RentRepo::returnBook(boost::uuids::uuid ID) {
+    double pom = rentRepo[ID]->rentCost();
+    rentRepo.erase(ID);
+    return pom;
+}
+
+map<boost::uuids::uuid, RentPtr> RentRepo::getAllRents() {
+
+    return rentRepo;
+}

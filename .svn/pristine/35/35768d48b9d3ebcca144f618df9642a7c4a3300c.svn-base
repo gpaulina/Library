@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="untitled1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pobi/Pulpit/Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pobi/Pulpit/Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled1">
+				<Option output="/home/pobi/Pulpit/Project/cmake-build-debug/untitled1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/Pulpit/Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled1/fast">
+				<Option output="/home/pobi/Pulpit/Project/cmake-build-debug/untitled1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/Pulpit/Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pobi/Pulpit/Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pobi/Pulpit/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pobi/Pulpit/Project/include/Book.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/include/BookManager.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/include/BookRepo.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/include/Customer.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/include/CustomerManager.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/include/CustomerRepo.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/include/CustomerType.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/include/Educational.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/include/Horror.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/include/Language.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/include/Math.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/include/Regular.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/include/Rent.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/include/RentException.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/include/RentManager.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/include/RentRepo.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/include/Student.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/main.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/src/Book.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/src/BookManager.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/src/BookRepo.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/src/Customer.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/src/CustomerManager.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/src/CustomerRepo.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/src/CustomerType.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/src/Educational.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/src/Horror.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/src/Language.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/src/Math.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/src/Regular.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/src/Rent.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/src/RentException.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/src/RentManager.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/src/RentRepo.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/src/Student.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

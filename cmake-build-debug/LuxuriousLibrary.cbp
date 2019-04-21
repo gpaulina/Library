@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LuxuriousLibrary"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pobi/Pulpit/Projekt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pobi/Pulpit/Projekt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pobi/Pulpit/Projekt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/pobi/Pulpit/Projekt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LuxuriousLibrary">
+				<Option output="/home/pobi/Pulpit/Projekt/cmake-build-debug/LuxuriousLibrary" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/Pulpit/Projekt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pobi/Pulpit/Projekt/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 LuxuriousLibrary"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LuxuriousLibrary/fast">
+				<Option output="/home/pobi/Pulpit/Projekt/cmake-build-debug/LuxuriousLibrary" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/Pulpit/Projekt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pobi/Pulpit/Projekt/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 LuxuriousLibrary/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestProject">
+				<Option output="/home/pobi/Pulpit/Projekt/cmake-build-debug/TestProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/Pulpit/Projekt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pobi/Pulpit/Projekt/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestProject"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestProject/fast">
+				<Option output="/home/pobi/Pulpit/Projekt/cmake-build-debug/TestProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/Pulpit/Projekt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pobi/Pulpit/Projekt/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestProject/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pobi/Pulpit/Projekt/include/Book.h">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/include/BookManager.h">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/include/BookRepo.h">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/include/Customer.h">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/include/CustomerManager.h">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/include/CustomerRepo.h">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/include/CustomerType.h">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/include/Educational.h">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/include/Horror.h">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/include/Language.h">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/include/Math.h">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/include/Regular.h">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/include/Rent.h">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/include/RentException.h">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/include/RentManager.h">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/include/RentRepo.h">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/include/SaveToDatabase.h">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/include/Student.h">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/main.cpp">
+			<Option target="LuxuriousLibrary"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/src/Book.cpp">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/src/BookManager.cpp">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/src/BookRepo.cpp">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/src/Customer.cpp">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/src/CustomerManager.cpp">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/src/CustomerRepo.cpp">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/src/CustomerType.cpp">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/src/Educational.cpp">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/src/Horror.cpp">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/src/Language.cpp">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/src/Math.cpp">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/src/Regular.cpp">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/src/Rent.cpp">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/src/RentException.cpp">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/src/RentManager.cpp">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/src/RentRepo.cpp">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/src/SaveToDatabase.cpp">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/src/Student.cpp">
+			<Option target="LuxuriousLibrary"/>
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/test/TestOne.cpp">
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/test/master.cpp">
+			<Option target="TestProject"/>
+		</Unit>
+		<Unit filename="/home/pobi/Pulpit/Projekt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

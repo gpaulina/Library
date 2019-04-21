@@ -1,0 +1,40 @@
+//
+// Created by pobi on 11.01.19.
+//
+#include "../include/RentManager.h"
+
+
+RentManager::RentManager() {}
+
+RentManager::~RentManager() {
+
+}
+
+boost::uuids::uuid RentManager::rentBook(BookPtr book, CustomerPtr customer) {
+    for(auto& it : rentRepo.getAllRents())
+    {
+        if(it.second->getBook()==book)
+        {
+            throw RentException(customer,book);
+        }
+    }
+    RentPtr createdRent = make_shared<Rent>(customer,book);
+    rentRepo.rentBook(createdRent);
+    return createdRent->getID();
+}
+
+double RentManager::returnBook(boost::uuids::uuid ID) {
+    return rentRepo.returnBook(ID);
+}
+
+map<boost::uuids::uuid,RentPtr> RentManager::getRentForCustomer(boost::uuids::uuid customer) {
+    map<boost::uuids::uuid,RentPtr> pom;
+    for(auto& it: rentRepo.getAllRents())
+    {
+        if(it.second->getCustomer()->getID()== customer)
+        {
+            pom[customer]= it.second;
+        }
+    }
+    return pom;
+}

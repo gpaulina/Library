@@ -1,0 +1,23 @@
+//
+// Created by pobi on 15.01.19.
+//
+
+#include <boost/test/unit_test.hpp>
+#include "../include/BookManager.h"
+#include "../include/CustomerManager.h"
+#include "../include/RentManager.h"
+
+BOOST_AUTO_TEST_SUITE(BasicModelTestSuite)
+
+    BOOST_AUTO_TEST_CASE(TworzenieLadunkowTest) {
+        RentManager rentMan();
+        BOOST_REQUIRE_EQUAL(true, true);
+    }
+
+    BOOST_AUTO_TEST_CASE(TworzenieStatkuTest) {
+        RentManager rentMan();
+        BOOST_REQUIRE_EQUAL(true, true);
+        BOOST_REQUIRE_CLOSE(0, 0.0, 0.0000001);
+    }
+
+BOOST_AUTO_TEST_SUITE_END()
